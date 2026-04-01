@@ -148,8 +148,8 @@ startapp-lms/
 │   ├── migrations/
 │   │   ├── __init__.py
 │   │   ├── 0001_initial.py
-│   │   ├── 0002_...
-│   │   └── 0003_...
+│   │   ├── 0002_0002_remove_enrollment_enrolled_at_and_more
+│   │   └── 0003_0003_alter_course_category_alter_course_instructor_and_more
 │   │
 │   ├── __init__.py
 │   ├── admin.py
@@ -180,7 +180,7 @@ startapp-lms/
 1. Clone repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ArvinFarrelP/simple-lms-django-orm.git
 cd startapp-lms
 ```
 
